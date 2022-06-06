@@ -1,9 +1,12 @@
-
+## MAKING DIRECTWED EDGES
+# Sangrae Kim
+# Undergraduate Student in College of Liberal Studies, Seoul Nat'l University
 
 import pandas as pd
-import numpy as np
 
 # 데이터 준비
+# asone = '공동발의자'와 '대표발의자'가 다른 열에 저장되어 있음. 각각의 행은 발의안을 의미함.
+# meber_data = '이름'을 비롯한 의원들의 데이터가 저장되어 있음.
 assem1 = pd.read_csv('./asone.csv', encoding='cp949').fillna("")
 mem = pd.read_csv('./meber_data.csv', encoding='cp949').fillna("")
 
