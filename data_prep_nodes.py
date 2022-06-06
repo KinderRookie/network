@@ -1,4 +1,5 @@
-# 엣지 만드는 코드
+## MAKING UNDIRECTED EDGES
+# 방향 없는 엣지 만드는 코드
 
 import pandas as pd
 import numpy as np
